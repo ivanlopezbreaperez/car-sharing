@@ -1,0 +1,19 @@
+{
+  "name": "car-sharing",
+  "version": "1.0.0",
+  "description": "Demo app for car-sharing kata.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 src/index.js",
+    "start:prod": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CEL-LAB",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "store": "^2.0.12"
+  }
+}
